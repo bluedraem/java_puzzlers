@@ -14,8 +14,11 @@ public class Lesson6 {
         //如果是char类型，一定是无符号拓展，因为char没有负数。其他的，如果之前是正数则无符号拓展，如果是负数则有符号拓展
         System.out.println((int)(char)(byte)-1);//65535
         System.out.println((byte)-1);//-1
+        //byte -1  源码 10000001 补码为取反+1 取反 11111110 +1 11111111
+        System.out.println(Integer.toBinaryString((byte)-1));//11111111111111111111111111111111
         System.out.println(Integer.toBinaryString((char)(byte)-1));//1111111111111111 二进制  有符号转无符号 扩展到16位
         System.out.println(Integer.toBinaryString((byte)100));//1111111111111111 二进制  有符号转无符号 扩展到16位
+
 
         byte b=1;
         //如果将一个byte数值b转型为一个char，并且不希望有符号扩展，那么必须使用一个位掩码来限制它：

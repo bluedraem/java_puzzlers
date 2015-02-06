@@ -1,4 +1,4 @@
-package com.lwx.study;
+package com.lwx.study.瀛楃璋滈;
 
 import java.nio.charset.Charset;
 import java.util.Properties;
@@ -6,15 +6,14 @@ import java.util.Properties;
 public class Lesson13 {
 
 	public static void main(String[] args) {
-		
+		//+鐨勪紭鍏堢骇楂樹簬==
 		String s1="a1:4";
 		String s2="a2:"+s1.length();
 		System.out.println("s1 is equals s2:"+s2==s2);//false
 		System.out.println("s1 is equals s2:"+(s2==s2));//s1 is equals s2:true
-		//+ 作为连接符或则加号 优先级都高于==
-		
-		System.out.print("hell");
-		System.out.println("o world");
+		System.out.println("s1 is equals s2:"+s2.equals(s2));//s1 is equals s2:true
+
+
 	
 	}
 }
