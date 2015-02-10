@@ -1,13 +1,12 @@
-package com.lwx.study;
+package com.lwx.study.ç±»è°œé¢˜;
 
-import java.util.Arrays;
 import java.util.Calendar;
 
 public class Lesson49 {
-
+	//åˆå§‹åŒ–é¡ºåºå½±å“ç»“æœ æ”¾è¿™é‡Œæ˜¯85
+	//private static final int CURRENT_YEAR=Calendar.getInstance().get(Calendar.YEAR);
 	private static final Lesson49 INSTANCE=new Lesson49();
 	private  int beltSize;
-	//³õÊ¼»¯CURRENT_YEAR·ÅÔÚµÚÒ»¾äºÍÕâÀïÊÇÓĞÇø±ğµÄ(Êµ¼ÊÊÇ·ÅÔÚINSTANCEÇ°ºÍºóÊÇÓĞÇø±ğµÄ)
 	private static final int CURRENT_YEAR=Calendar.getInstance().get(Calendar.YEAR);
 	
 	public Lesson49(){
@@ -18,9 +17,9 @@ public class Lesson49 {
 	}
 	
 	public static void main(String[] args) {
-		
-		System.out.println(Integer.bitCount(2));
-		//System.out.println(INSTANCE.beltSize());
+
+		//System.out.println(Integer.bitCount(2));
+		System.out.println(INSTANCE.beltSize());
 		
 		
 	}
