@@ -1,4 +1,4 @@
-package com.lwx.study;
+package com.lwx.study.库谜题;
 
 public class Lesson66 {
 	
@@ -13,6 +13,7 @@ public class Lesson66 {
 class Parent{
 	public String className ="parent";
 }
-class Child extends Parent{
+
+class Child extends Parent {
 	private String className ="parent";
 }
